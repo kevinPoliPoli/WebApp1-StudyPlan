@@ -6,7 +6,7 @@ const users = require("./dao/userDAO");
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
-const db = require("./dao/DB");
+const db = require("./dao/db");
 
 
 //dao instancies

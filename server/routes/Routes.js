@@ -1,5 +1,5 @@
 const express = require("express");
-const db = require("../dao/DB");
+const db = require("../dao/db");
 const courses = require("../dao/courseDao");
 const users = require("../dao/userDAO");
 const userApi = require("../api/userApi")

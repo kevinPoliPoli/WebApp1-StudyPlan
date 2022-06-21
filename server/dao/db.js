@@ -1,8 +1,9 @@
+const sqlite = require("sqlite3");
+
 class DB {
-  sqlite = require("sqlite3");
 
   constructor() {
-    this.db = new this.sqlite.Database("studyplan.sqlite", (err) => {
+    this.db = new sqlite.Database("studyplan.sqlite", (err) => {
       if (err) throw err;
     });
   }
